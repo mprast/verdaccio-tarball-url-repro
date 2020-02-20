@@ -1,0 +1,16 @@
+{
+  "name": "verdaccio-tarball-url-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mprast/verdaccio-tarball-url-repro.git",
+  "author": "Matthew Prast <mprast@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "verdaccio": "^4.4.3"
+  },
+  "private": true,
+  "workspaces": [
+    "packageA",
+    "packageB"
+  ]
+}
